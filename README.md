@@ -28,6 +28,6 @@ This is my configuration to my neovim, in case my pc burns like a potato, or som
   - ayu
   - darcula
 ## Screenshot
-![screenshot](https://imgur.com/xjcIubv)
+![alt text](https://github.com/eyadali05/nvim-config/blob/main/2021-10-20_15-26.png?raw=true)
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
