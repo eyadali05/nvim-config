@@ -1,33 +1,16 @@
-# nvim-config
-This is my configuration to my neovim, in case my pc burns like a potato, or someone else likes it.
+# Nvim Configuration
+> This is my configuration for my current editor *Neovim* in case I need to reuse it
 
-## Installed plugins
-* Vim polyglot (Better syntax support)
-* Black (Awesome python formatter)
-* CoC (Code completion)
-* Vimspector (Debugger)
-* Syntastic (Linter 'kind of..')
-* Nerdcommenter (Awesome for commenting code)
-* Vim-surround (Parenthesis/quotes completion)
-* Fuzzy finder must-haves:
-  - FZF
-  - Ripgrep
-  - Silversearcher
-* Startify (Great project manager)
-* Tagbar (Objects/Variables lister)
-* Floaterm (Floating terminal to speed up my workflow)
-* Git integration:
-  - Vim signify
-  - Vim fugitive
-  - Vim rhubarb
-  - GV
-* Vim snippets (Pretty self explanatory)
-* Themes:
-  - gruvbox
-  - tokyonight
-  - ayu
-  - darcula
-## Screenshot
-![alt text](https://github.com/eyadali05/nvim-config/blob/main/2021-10-20_15-26.png?raw=true)
-
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+## Steps to install
+1. Install neovim: `sudo apt install neovim`
+2. Make nvim folder in config directory: `mkdir ~/.config/nvim`
+3. Clone repo in folder
+4. Make a plugged directory and place **plugins.vim** in it: `mkdir plugged && mv plugins.vim plugged/`
+5. Go through the procedures of installing [vim-plug](https://github.com/junegunn/vim-plug)
+6. install nodejs v12.*
+7. install plugins with `:PlugInstall`
+8. install the needed coc extensions:
+  * coc-snippets
+  * coc-python
+  * coc marketplace
+9. Enjoy
