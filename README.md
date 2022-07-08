@@ -14,3 +14,8 @@
   * coc-python
   * coc marketplace
 9. Enjoy
+
+## TODO
+- [ ] Convert to lua
+- [ ] Use LSP and treesitter
+- [ ] make plugin to list all keymaps
